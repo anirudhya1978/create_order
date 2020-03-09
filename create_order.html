@@ -1,6 +1,6 @@
 <title>Create Orders</title>
 <h1>Enter Details of Orders </h1>
-<form action="http://0.0.0.0:5000/create_order" method="POST">
+<form action="http://<ip address of the service exposed from AWS:5002/create_order" method="POST">
   Enter Customer Id : <input type="text" name="customer_id"><br>
   Enter Item to be Ordered : <input type="text" name="order_item"><br>
   Enter Value of Order : <input type="int" name="order_value"><br>
