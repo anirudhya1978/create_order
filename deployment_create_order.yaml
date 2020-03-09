@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: createorder
-          image: anirudhya/create_order:latest
+          image: <your Image on Docker>
           ports: 
           - containerPort: 5000
 ---
